@@ -1,0 +1,8 @@
+print('--'*15,'REDE SOCIAL','-'*15 )
+nome = str(input('Digite seu nome:'))
+senha = str(input('Digite sua senha:'))
+tamanho = len(senha)
+if tamanho < 6:
+    print('Sua senha não é considerada segura. Adicione mais {} caracteres para que ela seja considerada segura. '. format(6-tamanho))
+else:
+    print('Sua senha é segura.')
