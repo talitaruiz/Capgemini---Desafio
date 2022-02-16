@@ -1,4 +1,4 @@
-print('--'*15,'REDE SOCIAL','-'*15 )
+print('--'*15,'REDE SOCIAL','--'*15 )
 nome = str(input('Digite seu nome:'))
 senha = str(input('Digite sua senha:'))
 tamanho = len(senha)
